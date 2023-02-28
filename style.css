@@ -452,6 +452,16 @@ footer ul {
         padding: 0;
     }
     
+    h2 {
+        font-size: 23px;
+        padding-left: 3%;
+    }
+    
+
+    }
+    .container_search p{
+        padding-left: 3%;
+    }
     .container_header {
         display: flex;
         flex-direction: column;
@@ -463,7 +473,7 @@ footer ul {
     .logo {
         margin-top: 19px;
         padding: 0;
-        padding-bottom: 39px;
+        padding-bottom: 25px;
     }
 
     .main_menu {
@@ -492,7 +502,7 @@ footer ul {
     .menu a:active {
         padding: 0;
         border-top: none;
-        box-sizing: border-box;
+        box-sizing: content-box;
         padding-bottom: 23px;
         border-bottom: #0065FC 3px solid;
     }
