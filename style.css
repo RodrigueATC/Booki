@@ -476,25 +476,30 @@ footer ul {
 
     .list_menu {
         width: 100%;
-    /*   border-bottom: #D9D9D9 3px solid;*/
+        border-bottom: #D9D9D9 3px solid;
 
     }
 
     .menu {
         width: 50%;
         padding: 0;
-        border-top: none;
         text-align: center;
         box-sizing: border-box;
         padding-bottom: 23px;
         
     }
 
-    .menu a:hover {
-        color: red;
-        border-bottom: 5px solid #0065FC;
+    .menu a:active {
+        padding: 0;
+        border-top: none;
+        box-sizing: border-box;
+        padding-bottom: 23px;
+        border-bottom: #0065FC 3px solid;
     }
-
+    .menu a:hover {
+        border-top: none;
+    }
+    
     .search_button {
         width: 100%;
         justify-content: center;
