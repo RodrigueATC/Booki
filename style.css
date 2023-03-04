@@ -56,7 +56,6 @@ h4 {
 
 .main_menu {
     display: flex; 
-    margin-right: 20px;
     justify-content: space-between;
     padding-top: 20px;
     margin-right: -27px;
@@ -450,6 +449,7 @@ footer ul {
 @media (max-width: 768px) {
     body {
         padding: 0;
+        margin:0;
     }
     
     h2 {
@@ -458,7 +458,7 @@ footer ul {
     }
     
 
-    }
+    
     .container_search p{
         padding-left: 3%;
     }
@@ -467,7 +467,9 @@ footer ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 31px;
+        margin:0;
+        padding:0;
+        width:100%;
     }
 
     .logo {
@@ -482,27 +484,30 @@ footer ul {
         flex-direction: row;
         justify-content: space-between;
         margin: 0;
+        
     }
 
     .list_menu {
         width: 100%;
-        border-bottom: #D9D9D9 3px solid;
+        gap: 0;
+        margin:0;
+        padding:0;
 
     }
 
     .menu {
-        width: 50%;
+        margin: 0;
         padding: 0;
         text-align: center;
-        box-sizing: border-box;
         padding-bottom: 23px;
+        border-bottom: #D9D9D9 3px solid;
         
     }
 
-    .menu a:active {
+    .menu:hover {
         padding: 0;
         border-top: none;
-        box-sizing: content-box;
+        box-sizing: border-box;
         padding-bottom: 23px;
         border-bottom: #0065FC 3px solid;
     }
