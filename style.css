@@ -14,7 +14,7 @@ h2 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 26px;
 }   
 
@@ -22,7 +22,7 @@ h3 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 19px;
 }
 
@@ -30,10 +30,12 @@ h4 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 21px;
 }
-
+p {
+    font-size: 17px;
+}
 .i_blue {
     color: #0065FC
 }
@@ -52,6 +54,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .main_menu {
@@ -79,9 +82,9 @@ h4 {
 }
 
 .menu a:hover {
-    padding-top: 75px;
+    padding-top: 78px;
     color: #0065FC;
-    border-top: 5px solid #0065FC;
+    border-top: 4px solid #0065FC;
 }
 
 /* SEARCH SECTION */
@@ -106,8 +109,11 @@ h4 {
 .search_button input {
     border: 1px solid #F2F2F2;
     font-weight: 700;
+    font-size: 15px;
     color: black;
+    padding-left: 2%;
 }
+
 
 ::placeholder {
     color: black;
@@ -214,7 +220,6 @@ h4 {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    column-gap: 3%;
     margin-top: 30px;
     margin-bottom: 60px;
 }
@@ -239,9 +244,13 @@ h4 {
     justify-content: center;
     box-sizing: border-box;
     padding-top: 42px;
-    padding-bottom: 34px;}
+    padding-bottom: 34px;
+}
+
+
 
 /* CONTAINER HEBERGEMENT */
+
 
 
 .main_card_hebergement {
@@ -264,12 +273,13 @@ h4 {
     color: black;
     border-radius: 20px;
     box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 0.5%;
     width: 31%;
 }
 
 .card_hebergement img {
-    height: 200px;
+    height: 170px;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -307,6 +317,7 @@ h4 {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: -15px;
 }
 
 .main_card_populaire {
@@ -325,11 +336,12 @@ h4 {
     box-sizing: border-box;
     padding: 1%;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
     width: 100%;
 }
 
 .card_populaire img {
-    height: 200px;
+    height: 180px;
     width: 40%;
     object-fit: cover;
     border-top-left-radius: 20px;
@@ -338,18 +350,20 @@ h4 {
 
 .card_populaire_details {
     margin-left: 10px;
-    width: 60%;
+    width: 57%;
 }
 
 .card_populaire_etoiles {
-    padding-top: 65px;
+    padding-top: 40px;
 }
 
 
 
 
 
-/* ACTIVITES */
+/* CONTAINER ACTIVITES */
+
+
 
 .container_activite {
     display: flex;
@@ -416,7 +430,7 @@ footer ul {
 
 
 
-/* MEDIA */
+/* MEDIA QUERIES*/
 
 
 @media (min-width: 768px) {
@@ -430,11 +444,26 @@ footer ul {
 
 
  @media ( min-width: 768px) and (max-width: 992px) {
+
+    span {
+        font-size: 13px;
+    }
+
     .container_hebergement_et_populaire {
         flex-direction: column;
     }
     .container_hebergement, .container_populaire{
         width:100%;
+    }
+
+    .container_populaire {
+        margin-top: 30px;
+    }
+
+    .main_card_populaire{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .container_hebergement {
@@ -521,7 +550,7 @@ footer ul {
     }
 
     .search_button input {
-        width: 60%;
+        width: 55%;
     }
 
     .button {
