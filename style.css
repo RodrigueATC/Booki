@@ -361,7 +361,7 @@ p {
 }
 
 .card_populaire_etoiles_1 {
-    padding-top: 67px;
+    padding-top: 51px;
 }
 
 
@@ -517,14 +517,17 @@ footer ul {
     }
 
     .card_populaire_etoiles {
-        padding-top: 22px;
+        padding-top: 38px;
     }
+
     .card_populaire_etoiles_1{
-        padding-top: 3px;
+        padding-top: 20px;
     }
+
     .main_card_activite {
         gap: 4%;
     }
+
     .card_activite img {
         height: 220px;
     }
@@ -543,21 +546,31 @@ footer ul {
 
 
 @media (max-width: 768px) {
+
     body {
         padding: 0;
         margin:0;
     }
     
     h2 {
-        font-size: 23px;
+        font-size: 25px;
         padding-left: 3%;
     }
     
+    h3 {
+        font-size: 19px;
+    }
 
-    
-    .container_search p{
-        padding-left: 3%;
+    .i_blue {
+        font-size: 14px;
     }
+
+    .logo {
+        margin-top: 19px;
+        padding: 0;
+        padding-bottom: 25px;
+    }
+
     .container_header {
         display: flex;
         flex-direction: column;
@@ -566,12 +579,6 @@ footer ul {
         margin:0;
         padding:0;
         width:100%;
-    }
-
-    .logo {
-        margin-top: 19px;
-        padding: 0;
-        padding-bottom: 25px;
     }
 
     .main_menu {
@@ -610,6 +617,14 @@ footer ul {
     .menu a:hover {
         border-top: none;
     }
+
+    .container_search {
+        margin-top: 35px;
+    }
+
+    .container_search p{
+        padding-left: 3%;
+    }
     
     .search_button {
         width: 100%;
@@ -643,12 +658,16 @@ footer ul {
         align-items: flex-start;
     }
 
+    
     .main_button {
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
+    .container_filters h4 {
+        padding-left :3%;
+    }
     .filters_button {
         width: 25%;
         height: 18px;
@@ -665,9 +684,10 @@ footer ul {
     .icon_info {
         display: flex;
         align-items: center;
-        column-gap: 3%;
+        padding-left: 3%;
     }
 
+    
     .container_hebergement_et_populaire {
         display: flex;
         flex-direction: column;
