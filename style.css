@@ -584,7 +584,7 @@ footer ul {
     
     h2 {
         font-size: 23px;
-        padding-left: 4%;
+        padding-left: 1%;
     }
     
     h3 {
@@ -664,8 +664,11 @@ footer ul {
         margin-top: 35px;
     }
 
+    .container_search h2 {
+        padding-left: 4%;
+    }
     .container_search p{
-        padding-left: 3%;
+        padding-left: 4%;
     }
     
     .search_button {
@@ -717,7 +720,7 @@ footer ul {
         padding-left : 4%;
     }
     .filters_button {
-        width: 34%;
+        width: 30%;
         height: 25px;
         align-items: center;
     }
@@ -793,9 +796,8 @@ footer ul {
     }
 
     #anchor_hebergement {
-        padding: 0;
+        padding: 0 0 0 1%;
         margin-bottom: 8px;
-        margin-left: -8px;
     }
 
     .container_hebergement {
@@ -814,7 +816,11 @@ footer ul {
     }
 
     .card_hebergement img {
-        height: 120px;
+        height: 130PX;
+    }
+
+    .card_hebergement_details {
+        line-height: 4%;
     }
     .display_none {
         display: none;
@@ -835,8 +841,8 @@ footer ul {
         row-gap: 24px;
     }
 
-    .activite_img {
-        height: 134px;
+    .card_activite img {
+        height: 120px;
     }
 
 
@@ -847,6 +853,8 @@ footer ul {
         display: flex;
         flex-direction: column;
         row-gap: 40px;
+        margin-top: -30px;
+        padding-left: 4%;
     }
 
     .footer_column {
