@@ -2,6 +2,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body {
+    min-width: 320px;
     max-width: 1440px;
     padding: 2%;
 }
